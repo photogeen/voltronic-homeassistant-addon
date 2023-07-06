@@ -1,0 +1,18 @@
+# Home Assistant addon configuration
+
+name: "Voltronic"
+description: "Monitor and control Voltronic based inverters from Home Assistant."
+version: "1.0.0"
+slug: "voltronic"
+init: false
+udev: true
+devices:
+  - /dev/hidraw0
+  - /dev/hidraw1
+  - /dev/hidraw2
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
